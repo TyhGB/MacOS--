@@ -542,7 +542,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/liankang/Desktop/Huawei_eSDK/eSpaceMac/eSpaceMac/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/eSpaceMac/PrefixHeader.pch";
 				INFOPLIST_FILE = eSpaceMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbdtek.eSpaceMac;
@@ -556,7 +556,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/liankang/Desktop/Huawei_eSDK/eSpaceMac/eSpaceMac/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/eSpaceMac/PrefixHeader.pch";
 				INFOPLIST_FILE = eSpaceMac/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bbdtek.eSpaceMac;
