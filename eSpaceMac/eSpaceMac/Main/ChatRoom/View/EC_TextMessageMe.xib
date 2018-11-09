@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2657" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="12121"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <tableCellView id="JHE-SB-Jsx" customClass="EC_TextMessageMe">
+            <rect key="frame" x="0.0" y="0.0" width="304" height="60"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kmt-bb-WBu">
+                    <rect key="frame" x="254" y="10" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="BVR-cO-O4Y"/>
+                        <constraint firstAttribute="height" constant="40" id="Pn7-lt-h6H"/>
+                    </constraints>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="1" id="L8s-p6-XJ5"/>
+                </imageView>
+                <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" allowsCharacterPickerTouchBarItem="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xtj-c2-gH2">
+                    <rect key="frame" x="3" y="10" width="248" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="3QK-rm-ZK3"/>
+                    </constraints>
+                    <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" alignment="right" title="你好啊啊大方的身份" id="X3q-nb-cXT">
+                        <font key="font" size="13" name=".PingFangSC-Regular"/>
+                        <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="kmt-bb-WBu" firstAttribute="leading" secondItem="Xtj-c2-gH2" secondAttribute="trailing" constant="5" id="Akk-Bt-Ovm"/>
+                <constraint firstItem="kmt-bb-WBu" firstAttribute="top" secondItem="JHE-SB-Jsx" secondAttribute="top" constant="10" id="NMC-Dc-WNA"/>
+                <constraint firstAttribute="bottom" secondItem="Xtj-c2-gH2" secondAttribute="bottom" constant="10" id="QLV-Zk-8DG"/>
+                <constraint firstAttribute="trailing" secondItem="kmt-bb-WBu" secondAttribute="trailing" constant="10" id="e94-Ph-LWE"/>
+                <constraint firstAttribute="bottom" secondItem="kmt-bb-WBu" secondAttribute="bottom" constant="10" id="hf2-uS-VW6"/>
+                <constraint firstItem="Xtj-c2-gH2" firstAttribute="top" secondItem="JHE-SB-Jsx" secondAttribute="top" constant="20" id="v7S-lv-7TD"/>
+                <constraint firstItem="Xtj-c2-gH2" firstAttribute="leading" secondItem="JHE-SB-Jsx" secondAttribute="leading" constant="5" id="yd6-LE-NOT"/>
+            </constraints>
+            <connections>
+                <outlet property="iconImage" destination="kmt-bb-WBu" id="vel-SI-SAk"/>
+                <outlet property="sendText" destination="Xtj-c2-gH2" id="OgJ-cd-fgD"/>
+                <outlet property="textField" destination="Xtj-c2-gH2" id="MXW-0R-CQp"/>
+            </connections>
+            <point key="canvasLocation" x="126" y="45"/>
+        </tableCellView>
+    </objects>
+    <resources>
+        <image name="1" width="128" height="128"/>
+    </resources>
+</document>
