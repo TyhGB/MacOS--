@@ -4,4 +4,4 @@
 
 
 
-![mac_chat_min](/Users/liankang/Desktop/Mac-eSpaceGitHub/mac_chat_min.gif)
+![mac_chat_min](https://github.com/TyhGB/MacOS--/blob/master/mac_chat_min.gif)
